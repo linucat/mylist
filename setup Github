@@ -1,0 +1,7 @@
+git config --global credential.helper store
+
+>> save to home/.gitconfig
+>> save to home/.git-credentials
+
+
+1. create git project with .git-ignore file
