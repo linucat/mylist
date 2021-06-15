@@ -20,4 +20,4 @@
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
 # 
 
-15 * * * * python3 /home/lkthedev/Desktop/Mygit/mylist/run_all.py
+30 * * * * sh /home/lkthedev/Desktop/run_all.sh
