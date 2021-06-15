@@ -19,3 +19,5 @@
 # minute (m), hour (h), day of month (dom), month (mon), dayofweek
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
 # 
+
+15 * * * * python3 /home/lkthedev/Desktop/Mygit/mylist/run_all.py
