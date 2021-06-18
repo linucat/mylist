@@ -20,4 +20,14 @@
 # 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
 # 
 
-30 * * * * sh /home/lkthedev/Desktop/run_all.sh
+45 15 * * * /home/lkthedev/Mygit/coinmasterwiki.sh
+45 20 * * * /home/lkthedev/Mygit/coinmasterwiki.sh
+45 23 * * * /home/lkthedev/Mygit/coinmasterwiki.sh
+
+48 15 * * * /home/lkthedev/Mygit/coinmasterspin.sh
+48 20 * * * /home/lkthedev/Mygit/coinmasterspin.sh
+48 23 * * * /home/lkthedev/Mygit/coinmasterspin.sh
+
+
+30 21 * * * /home/lkthedev/Mygit/coinmasterwiki.sh
+30 21 * * * /home/lkthedev/Mygit/coinmasterspin.sh

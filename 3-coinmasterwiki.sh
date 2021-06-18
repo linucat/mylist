@@ -1,5 +1,5 @@
 #To the folder
-cd /home/lkthedev/Desktop/Mygit/coinmasterwiki.com
+cd /home/lkthedev/Mygit/coinmasterwiki.com
 
 #Pull to update
 git pull
