@@ -59,7 +59,7 @@ psk="pswdsecret"
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
-  sudo /usr/bin/python3 /home/pi/Mygit/tools/send_ip.py
+  sudo /home/pi/Mygit/bin/python3 /home/pi/Mygit/tools/send_ip.py
 fi
 
 exit 0
